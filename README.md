@@ -1,1 +1,1 @@
-https://irina-snezan.github.io/wildlife/
+https://irina-snezan-wildlife.netlify.app/
