@@ -3,15 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale-1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
 	<title>wildlife</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 	<link rel="icon" href="assets/logo.svg">
 </head>
 
@@ -46,32 +46,62 @@
 				<h2>Latest articles</h2>
 				<p>Breaking news from the wild</p>
 			</div>
-			<div class="slider">
-				<div class="flex-item flex1">
+			<div class="slider-container">
+				<div class="control-left">
 					<img src="assets/item_left.png" alt="">
 				</div>
-				<div class="flex-item flex2">
-					<div class="content-img">
-						<h3>Deer</h3>
-						<p>Naturalist investigation</p>
+				<div class="slider">
+					<div class="slide">
+						<div class="content-img">
+							<h3>Deer</h3>
+							<p>Naturalist investigation</p>
+						</div>
+						<img src="assets/deer.jpg" alt="deer">
 					</div>
-					<img src="assets/deer.jpg" alt="deer">
-				</div>
-				<div class="flex-item flex3">
-					<div class="content-img">
-						<h3>Squirrel</h3>
-						<p>Kamikaze squirrels</p>
+					<div class="slide">
+						<div class="content-img">
+							<h3>Squirrel</h3>
+							<p>Kamikaze squirrels</p>
+						</div>
+						<img src="assets/squirrel.jpg" alt="squirrel">
 					</div>
-					<img src="assets/squirrel.jpg" alt="squirrel">
-				</div>
-				<div class="flex-item flex4">
-					<div class="content-img">
-						<h3>Bird</h3>
-						<p>Birds Fight club</p>
+					<div class="slide">
+						<div class="content-img">
+							<h3>Bird</h3>
+							<p>Birds Fight club</p>
+						</div>
+						<img src="assets/bird.jpg" alt="bird">
 					</div>
-					<img src="assets/bird.jpg" alt="bird">
+					<div class="slide">
+						<div class="content-img">
+							<h3>Owl</h3>
+							<p>Predatory nocturnal bird</p>
+						</div>
+						<img src="assets/owl.jpg" alt="owl">
+					</div>
+					<div class="slide">
+						<div class="content-img">
+							<h3>Eagle</h3>
+							<p>The proud hunter</p>
+						</div>
+						<img src="assets/eagle.jpg" alt="eagle">
+					</div>
+					<div class="slide">
+						<div class="content-img">
+							<h3>Tiger</h3>
+							<p>An important predator</p>
+						</div>
+						<img src="assets/tiger.jpg" alt="tiger">
+					</div>
+					<div class="flex-item flex8">
+						<div class="content-img">
+							<h3>Ladybug</h3>
+							<p>Nice red white dotted Bug</p>
+						</div>
+						<img src="assets/ladybug.jpg" alt="ladybug">
+					</div>
 				</div>
-				<div class="flex-item flex5">
+				<div class="control-right">
 					<img src="assets/item_right.png" alt="">
 				</div>
 			</div>
@@ -107,6 +137,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="js/slider.js"></script>
 </body>
 
 </html>
